@@ -2841,3 +2841,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/citrus/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
     vendor/xiaomi/citrus/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
     vendor/xiaomi/citrus/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
+
+PRODUCT_PACKAGES += \
+    audiosphere \
+    com.qti.dpmframework \
+    dpmapi \
+    qcrilhook \
+    vendor.qti.hardware.alarm-V1.0-java \
+    vendor.qti.ims.factory-V1.0-java \
+    vendor.qti.ims.factory-V1.1-java
